@@ -1,0 +1,8 @@
+@import "./vars.scss";
+@mixin btn($btn-pad-vert, $btn-pad-hor){
+    padding:$btn-pad-vert $btn-pad-hor;
+    background-color: transparent;
+    &:hover{
+        background-color: $header-add-color;
+    }
+}
