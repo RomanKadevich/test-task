@@ -2,6 +2,8 @@
 @import "./templates.scss";
 
 .info {
+    z-index:3;
+   
   &__heading {
     margin-bottom: 1.5rem;
     font-size: $info-heading-font-size;

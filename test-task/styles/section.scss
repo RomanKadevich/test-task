@@ -1,9 +1,11 @@
 .section {
+    padding-top:18.5rem;
+    padding-bottom: 24rem;
     background: url('../assets/section-bg.svg')  no-repeat transparent;
     background-size: cover; 
     &__container{
-        padding-top:18.5rem;
-        padding-bottom: 24rem;
+        display: flex;
+      
     }
 
 }

@@ -7,3 +7,10 @@
         background: $header-add-color;
     }
 }
+@mixin line($line-bg-url){
+   
+    height:200vh;
+    width:6.19831rem;
+    background: url($line-bg-url) top;
+   background-position: ce 4rem;
+}

@@ -1,7 +1,10 @@
 @import "./vars.scss";
 @import "./templates.scss";
 
-.header {
+.header {   
+  position: relative;
+  z-index:3;
+  background: $bg-color;;
   padding: 1.5rem 3rem 0 3rem;
 
   color: $font-color-main;
