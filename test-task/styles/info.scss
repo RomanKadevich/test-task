@@ -1,0 +1,32 @@
+@import "./vars.scss";
+@import "./templates.scss";
+
+.info {
+  &__heading {
+    margin-bottom: 1.5rem;
+    font-size: $info-heading-font-size;
+    font-style: normal;
+    font-weight: $info-heading-font-weight;
+    line-height: 96px; /* 100% */
+    color: $info-heading-firs-color;
+    div {
+      color: $info-heading-second-color;
+    }
+
+  }
+  &__text {
+    margin-bottom: 3rem;
+    font-size: $info-button-text-size;
+    color: $info-text-color;
+  }
+  &__button {
+    @include btn(1.25rem, 4.5rem);
+    background-color: $info-btn-color;
+        &:hover{
+        opacity:0.7;
+    }
+    border-radius: 3rem;
+    font-size: $info-button-text-size;
+    color: $info-button-text-color;
+  }
+}

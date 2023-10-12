@@ -2,7 +2,8 @@
 @mixin btn($btn-pad-vert, $btn-pad-hor){
     padding:$btn-pad-vert $btn-pad-hor;
     background-color: transparent;
+    transition: opacity 300ms ease-in-out, background 300ms ease-in-out;
     &:hover{
-        background-color: $header-add-color;
+        background: $header-add-color;
     }
 }
