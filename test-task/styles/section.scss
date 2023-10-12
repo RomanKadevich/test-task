@@ -1,23 +1,9 @@
 .section {
-    position: relative;
-  &__bottom-grad {
+    background: url('../assets/section-bg.svg') center  center no-repeat transparent;
+    background-size: cover; 
+    &__container{
+        padding-top:18.5rem;
+        padding-bottom: 24rem;
+    }
 
-    width: 120rem;
-height: 65.5rem;
-position: absolute;
-z-index:-1
-  }
-  &__dot-light{
-    width: 14.15363rem;
-    height: 81.40431rem;
-   
-    top: 0;
-    left: 0;
-    transform: rotate(-54.311deg);
-    background: linear-gradient(180deg, #478bf9 0%, rgba(71, 139, 249, 0.4) 100%);
-
-    opacity: 0.55;
-    filter: blur(150px);
-  }
-  
 }
