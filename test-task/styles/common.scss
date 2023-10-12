@@ -1,5 +1,8 @@
+@import "./vars.scss";
+
 body{
     font-family: 'Lexend', sans-serif;
+    
 }
 
 .container{
@@ -18,6 +21,7 @@ body{
 html, body {
     font-family: 'Lexend', sans-serif;
     font-size: 16px;
+    background-color: $bg-color;
 }
 
 a {
